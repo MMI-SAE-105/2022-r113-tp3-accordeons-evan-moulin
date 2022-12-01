@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr"> 
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Accordéon mémorisant par un nombre l'élèment ouvert</title>
+    <title>Accordéon avec des booléens</title>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
-  <body>
-    <h1>Accordéon mémorisant par un nombre l'élèment ouvert</h1>
+  <body x-data="{1 ; 2 ; 3}" >
+    <h1>Accordéon avec des booléens</h1>
+    <div class="accordeon">
+
+      <section>
+        <button>bouton 1</button>
+        <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis sint, consequatur aliquid quas autem vel eos nesciunt quidem sit? Autem tempore dicta atque rerum? Quae facere repellendus possimus corrupti tempora!</p>
+      </section>
+      <section >
+        <button >bouton 2</button>
+        <p >Exercitationem fugiat vel architecto culpa perferendis saepe distinctio rem corporis eaque, fugit rerum nesciunt odio sunt tempora unde id qui possimus aperiam facere assumenda neque! Nobis animi ullam modi inventore?</p>
+      </section>
+      <section >
+        <button >bouton 3</button>
+        <p >Ducimus minus corrupti officia doloribus atque dolorem quos ex optio totam voluptatibus. Optio, sed! Quo obcaecati nobis dignissimos laudantium nihil autem natus debitis, nesciunt quos cum recusandae nostrum eaque! Enim.</p>
+      </section>
+      
+    </div>
   </body>
 </html>
+
